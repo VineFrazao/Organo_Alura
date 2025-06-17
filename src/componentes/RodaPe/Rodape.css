@@ -1,0 +1,34 @@
+.rodape {
+  background-color: #6278f7;
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  flex-wrap: wrap;
+}
+
+.redes img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.creditos h5 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.redes ul li {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.redes ul li:last-child {
+  margin-right: 0;
+}
